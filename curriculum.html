@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículum - Sergio Daniel Amezcua Sagrero</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+            color: #333;
+        }
+
+        .profile {
+            max-width: 900px;
+            margin: 20px auto;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .profile-header {
+            background: linear-gradient(135deg, #555, #333);
+            color: #fff;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        .profile-header img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #fff;
+        }
+
+        .profile-header h1 {
+            font-size: 1.8rem;
+            margin: 10px 0 5px;
+        }
+
+        .profile-header h2 {
+            font-size: 1rem;
+            font-weight: 400;
+            color: #ddd;
+        }
+
+        .profile-body {
+            padding: 20px;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section h2 {
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+            color: #444;
+            border-left: 4px solid #333;
+            padding-left: 10px;
+        }
+
+        .details, .skills, .achievements, .contact, .projects {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .details div, .skills div, .achievements div, .contact div, .projects div {
+            flex: 1;
+            min-width: calc(50% - 20px);
+            background: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease;
+        }
+
+        .details div:hover, .skills div:hover, .achievements div:hover, .contact div:hover, .projects div:hover {
+            transform: translateY(-5px);
+        }
+
+        .details div h3, .skills div h3, .achievements div h3, .contact div h3, .projects div h4 {
+            font-size: 1rem;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        ul {
+            padding-left: 20px;
+            margin: 0;
+        }
+
+        ul li {
+            list-style: disc;
+            margin-bottom: 5px;
+        }
+
+        .contact-info {
+            display: flex;
+            align-items: center;
+            font-size: 0.9rem;
+            color: #555;
+            margin-bottom: 10px;
+        }
+
+        .contact-info i {
+            margin-right: 10px;
+            color: #333;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: #4facfe;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media screen and (max-width: 768px) {
+            .details div, .skills div, .achievements div, .contact div, .projects div {
+                min-width: 100%;
+            }
+
+            .profile-header img {
+                width: 100px;
+                height: 100px;
+            }
+
+            .profile-header h1 {
+                font-size: 1.5rem;
+            }
+
+            .profile-header h2 {
+                font-size: 0.9rem;
+            }
+
+            .section h2 {
+                font-size: 1rem;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            .profile-header {
+                padding: 20px;
+            }
+
+            .profile-body {
+                padding: 15px;
+            }
+
+            .details div, .skills div, .achievements div, .contact div, .projects div {
+                padding: 15px;
+            }
+
+            footer {
+                font-size: 0.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="profile">
+        <div class="profile-header">
+            <img src="Captura 1.jpg" alt="Foto de perfil">
+            <h1>Sergio Daniel Amezcua Sagrero</h1>
+            <h2>Ingeniero en Sistemas Computacionales</h2>
+        </div>
+        <div class="profile-body">
+            <div class="section details">
+                <h2>Detalles</h2>
+                <div>
+                    <h3>Contexto</h3>
+                    <p>Desarrollador web con experiencia en tecnologías modernas como .NET Core, Java, JSF, JQuery y CSS. Enfocado en diseño, implementación y optimización de aplicaciones web y móviles.</p>
+                </div>
+                <div>
+                    <h3>Perfil Profesional</h3>
+                    <p>Ingeniero en Sistemas con experiencia en desarrollo de software, gestión de proyectos y soluciones tecnológicas. Apasionado por la tecnología y en constante búsqueda de nuevos desafíos para aplicar mis habilidades y contribuir al éxito de la organización. Destaco por mi capacidad de liderazgo, resolución de problemas y adaptabilidad a entornos cambiantes.</p>
+                </div>
+            </div>
+            <div class="section experience">
+                <h2>Experiencia Laboral</h2>
+                <div class="job">
+                    <h4>Desarrollador de Software</h4>
+                    <p class="company">Erick Kayser | 2018 - 2023</p>
+                    <ul>
+                        <li>Desarrollo de aplicaciones web y móviles utilizando tecnologías como Python.</li>
+                        <li>Liderazgo de equipos de desarrollo de hasta 5 personas, gestionando proyectos con metodologías ágiles (Scrum).</li>
+                        <li>Implementación de pruebas unitarias y de integración para garantizar la calidad del software.</li>
+                        <li>Participación en la definición de la arquitectura de software y la selección de tecnologías.</li>
+                        <li>Optimización del rendimiento de aplicaciones y resolución de problemas.</li>
+                    </ul>
+                </div>
+                <div class="job">
+                    <h4>Analista de Sistemas</h4>
+                    <p class="company">Kinder Jaime Sabines | 2024 - 2025</p>
+                    <ul>
+                        <li>Análisis y diseño de sistemas de información para la gestión de alumnos, materias, calificaciones, etc.</li>
+                        <li>Soporte técnico y mantenimiento de aplicaciones.</li>
+                        <li>Elaboración de documentación técnica y manuales de usuario para la capacitación del personal.</li>
+                        <li>Colaboración en la implementación de un sistema de gestión de base de datos SQL.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="section education">
+                <h2>Educación</h2>
+                <div class="degree">
+                    <h4>Ingeniería en Sistemas Computacionales</h4>
+                    <p class="institution">Universidad Bancaria de México | 2022 - 2025</p>
+                        <p>Promedio: 8.0</p>
+                    <p>Proyecto de tesis: Desarrollo de un sitio web para la gestión de locales en calles urbanas.</p>
+                </div>
+                <div class="degree">
+                    <h4>Diplomado en Desarrollo Web Full Stack</h4>
+                    <p class="institution">Certiprof Evolution | 2024</p>
+                    <p>Especialización en desarrollo de la metodología Scrum.</p>
+                </div>
+            </div>
+            <div class="section skills">
+                <h2>Habilidades</h2>
+                <div>
+                    <h3>Habilidades Técnicas</h3>
+                    <ul>
+                        <li>Desarrollo Web (HTML, Node.js, Python, Java, C++)</li>
+                        <li>Diseño Web</li>
+                        <li>Optimización de Bases de Datos (SQL Server, MySQL)</li>
+                        <li>Metodologías Ágiles (Scrum, Kanban)</li>
+                        <li>Gestión de Proyectos (Jira, Trello)</li>
+                        <li>Sistemas Operativos (Windows, Linux, macOS)</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Habilidades Blandas</h3>
+                    <ul>
+                        <li>Liderazgo</li>
+                        <li>Resolución de Conflictos</li>
+                        <li>Adaptabilidad</li>
+                        <li>Trabajo en equipo</li>
+                        <li>Comunicación</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="section projects">
+                <h2>Proyectos</h2>
+                <div class="project">
+                    <h4>Aplicación web de gestión de productos</h4>
+                    <p>Desarrollada que permite la creación, asignación y seguimiento de productos.</p>
+                    <a href="https://github.com/sergiosergio1123/Sergio/blob/master/proyecto2/producto.html">Ver proyecto en GitHub</a>
+                </div>
+                <div class="project">
+                    <h4>Sitio Web para gestión de locales en calles urbanas.</h4>
+                    <p>Desarrollada con React Native, permite registrar y analizar los locales mas datos.</p>
+                </div>
+            </div>
+            <div class="section contact">
+                <h2>Contacto</h2>
+                <div>
+                    <div class="contact-info">
+                        <i class="fas fa-envelope"></i> ser.dany@hotmail.com
+                    </div>
+                    <div class="contact-info">
+                        <i class="fas fa-phone"></i> +52 56 3375 9180
+                    </div>
+                </div>
+                <div>
+                    <div class="contact-info">
+                        <i class="fas fa-map-marker-alt"></i> Cuautitlán, EdoMex.
+                    </div>
+                    <p>GitHub: github.com/sergioamezcua</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        Diseñado por Amezcua S. Sergio D. <a href="#">Contáctame</a>
+    </footer>
+</body>
+</html>
